@@ -27,7 +27,7 @@
 
 body {
   color: #383838 !important;
-  background-color: #ebebeb;
+  background-color: #f3f3f3;
 }
 
 .bg {
@@ -39,7 +39,7 @@ body {
   padding: 20px;
   border-radius: 30px;
   background: #ebebeb;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff;
 }
 
 .crd-bd {
@@ -67,19 +67,31 @@ body {
   padding: 10px;
   border-radius: 20px;
   background: linear-gradient(145deg, #e7e7e7, #ebebeb);
-  box-shadow: 9px 9px 40px #bebebe, -9px -9px 40px #f1f1f1;
+  box-shadow: 9px 9px 40px #d8d8d8, -9px -9px 40px #f1f1f1;
 }
 
 .but {
-  border-radius: 14px;
+  border-radius: 12px;
   background: #ebebeb;
-  box-shadow: 12px 12px 24px #b8b8b8, -12px -12px 24px #eeeeee;
+  box-shadow: 12px 12px 24px #cfcfcf, -12px -12px 24px #eeeeee;
   border: #f7f7f7;
   padding-left: 14px;
   padding-right: 14px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  margin: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.but-imp {
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  background: #ebebeb;
+  box-shadow: 12px 12px 24px #cacaca, -12px -12px 24px #eeeeee;
+  border: #f7f7f7;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
 }
 
@@ -119,10 +131,40 @@ body {
   color: #c2c2c2;
 }
 
+.inp-but-i {
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+  background: linear-gradient(45deg, #f1f1f1, #f1f1f1);
+  box-shadow: inset 6px 6px 23px #d3d3d3, inset -6px -6px 23px #f0f0f0;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #383838;
+  border: none;
+}
+
+input:focus-visible {
+  outline: #a0b2d3 !important;
+  border: none !important;
+}
+
+.inp {
+  border-radius: 12px;
+  background: linear-gradient(45deg, #f1f1f1, #f1f1f1);
+  box-shadow: inset 6px 6px 23px #d3d3d3, inset -6px -6px 23px #f0f0f0;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #383838;
+  border: none;
+}
+
 .alrt {
   border-radius: 14px;
   background: #ebebeb;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #f1f1f1;
+  box-shadow: 20px 20px 60px #cfcfcf, -20px -20px 60px #f1f1f1;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 18px;
@@ -166,7 +208,7 @@ body {
 .bdg {
   border-radius: 50%;
   background: #ebebeb;
-  background: #e0e0e0;
+  background: #e4e4e4;
   box-shadow: 5px 5px 19px #cacaca, -5px -5px 19px #f6f6f6;
   padding-left: 14px;
   padding-right: 14px;
@@ -209,28 +251,11 @@ body {
   color: #c2c2c2;
 }
 
-.inp {
-  border-radius: 12px;
-  background: linear-gradient(45deg, #f1f1f1, #f1f1f1);
-  box-shadow: inset 6px 6px 23px #d3d3d3, inset -6px -6px 23px #f0f0f0;
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #383838;
-  border: none;
-}
-
-input:focus-visible {
-  outline: #a0b2d3 !important;
-  border: none !important;
-}
-
 .nvbr {
   width: 70%;
   border-radius: 16px;
   background: #ebebeb;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #f1f1f1;
+  box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #f1f1f1;
   margin-left: 15%;
   margin-right: 15%;
   padding-left: 10px;
@@ -261,7 +286,7 @@ input:focus-visible {
 .lst-elmnt {
   border-radius: 10px;
   background: #ebebeb;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #f1f1f1;
+  box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #f1f1f1;
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 12px;
