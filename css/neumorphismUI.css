@@ -178,10 +178,10 @@ body {
   border-radius: 12px;
   background: linear-gradient(45deg, #f1f1f1, #f7f7f7);
   box-shadow: 11px -11px 18px #dbdbdb, -11px 11px 18px #f3f3f3;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: #383838;
   font-size: 16px;
   border: none;
