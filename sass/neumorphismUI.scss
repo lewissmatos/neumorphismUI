@@ -1,21 +1,37 @@
+//VARIABLES
+$acent: #152e5e;
+$primary: #2a219c;
+$secondary: #77749e;
+$info: #218e9c;
+$warning: #cfc100;
+$success: #10a310;
+$danger: #d31313;
+$dark: #383838;
+$light: #c2c2c2;
+$bg: #eeeeee;
+
+body{
+    color: $dark !important;
+    background-color: $bg;
+}
+
 .bg{
-    background-color: #e0e0e0;
-    width: 800px;
-    height: 800px;
+    
     padding: 200px;
   }
-
+//CARD
 .crd{
+    width: 400px;
   padding: 20px;        
   border-radius: 40px;
-  background: #e0e0e0;
+  background: $bg;
   box-shadow:  20px 20px 60px #bebebe,
     -20px -20px 60px #ffffff;
 }
 
 .crd-bd{
   padding: 2px;
-  color: rgb(87, 87, 87);
+  color: $dark;
   font-size: 18px;
 }
 
@@ -27,20 +43,222 @@
 }
 
 .crd-img{
-  border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   width: 100%;
 }
 
+.crd-cont-img{
+    height: 80px;
+}
+//BUTTONS
 .but{
-  border-radius: 20px;
-  background: #e0e0e0;
+  border-radius: 14px;
+  background: $bg;
   box-shadow:  12px 12px 24px #b8b8b8,
-              -12px -12px 24px #ffffff;
+              -12px -12px 24px #f1f1f1;
   border: #ffffff;
   padding-left: 14px;
   padding-right: 14px;
   padding-top: 6px ;
   padding-bottom: 6px ;
+  margin: 1px;
   cursor: pointer;
 }
 
+.but-primary{
+    color: $primary;
+}
+.but-secondary{
+    color: $secondary;
+}
+.but-success{
+    color: $success;
+}
+.but-info{
+    color: $info;
+}
+.but-danger{
+    color: $danger;
+}
+.but-warning{
+    color: $warning;
+}
+.but-dark{
+    color: $dark;
+}
+.but-light{
+    color: $light;
+}
+
+//ALERTS
+
+.alrt{
+    border-radius: 14px;
+    background: $bg;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #f1f1f1;
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-top: 12px ;
+    padding-bottom: 12px ;
+    margin: 8px;
+}
+
+.alrt-primary{
+    color: $primary;
+}
+.alrt-secondary{
+    color: $secondary;
+}
+.alrt-success{
+    color: $success;
+}
+.alrt-info{
+    color: $info;
+}
+.alrt-danger{
+    color: $danger;
+}
+.alrt-warning{
+    color: $warning;
+}
+.alrt-dark{
+    color: $dark;
+}
+.alrt-light{
+    color: $light;
+}
+
+//BADGES
+
+.bdg{
+    border-radius: 50%;
+    background: $bg;
+    box-shadow:  12px 12px 24px #b8b8b8,
+                -12px -12px 24px #ffffff;
+    border: #ffffff;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 6px ;
+    padding-bottom: 6px ;
+    margin: 1px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .bdg-primary{
+      color: $primary;
+  }
+  .bdg-secondary{
+      color: $secondary;
+  }
+  .bdg-success{
+      color: $success;
+  }
+  .bdg-info{
+      color: $info;
+  }
+  .bdg-danger{
+      color: $danger;
+  }
+  .bdg-warning{
+      color: $warning;
+  }
+  .bdg-dark{
+      color: $dark;
+  }
+  .bdg-light{
+      color: $light;
+  }
+
+  //INPUT
+
+  .inp {
+    border-radius: 12px;
+    background: linear-gradient(45deg, #f1f1f1, #f7f7f7);
+    box-shadow:  11px -11px 18px #dbdbdb,
+             -11px 11px 18px #f3f3f3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: $dark;
+    font-size: 16px;
+    border: none;
+  }
+
+  //NAV
+
+  .nvbr{
+    width: 70%;
+    border-radius: 16px;
+    background:$bg;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #f1f1f1;
+      margin-left: 15% ;
+      margin-right:  15%;
+
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      text-align: center;
+      font-weight: bold;
+  }
+
+  .nvbr-elmnt{
+      font-size: 22px;
+    margin-left: 14px;
+    margin-right: 14px;
+    cursor: pointer;
+    color: $acent;
+  }
+
+  //LIST
+  .lst-grp{
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .lst-elmnt{
+    border-radius: 10px;
+    background: $bg;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #f1f1f1;
+    padding-left:  8px;
+    padding-right: 8px;
+    padding-top: 12px ;
+    padding-bottom: 12px ;
+    margin: 6px;
+  }
+
+
+
+.lst-elmnt-primary{
+    color: $primary;
+}
+.lst-elmnt-secondary{
+    color: $secondary;
+}
+.lst-elmnt-success{
+    color: $success;
+}
+.lst-elmnt-info{
+    color: $info;
+}
+.lst-elmnt-danger{
+    color: $danger;
+}
+.lst-elmnt-warning{
+    color: $warning;
+}
+.lst-elmnt-dark{
+    color: $dark;
+}
+.lst-elmnt-light{
+    color: $light;
+}
+ 
