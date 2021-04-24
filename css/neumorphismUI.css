@@ -1,6 +1,6 @@
 body {
   color: #383838 !important;
-  background-color: #eeeeee;
+  background-color: #ebebeb;
 }
 
 .bg {
@@ -11,7 +11,7 @@ body {
   width: 400px;
   padding: 20px;
   border-radius: 40px;
-  background: #eeeeee;
+  background: #ebebeb;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
@@ -42,7 +42,7 @@ body {
 
 .but {
   border-radius: 14px;
-  background: #eeeeee;
+  background: #ebebeb;
   box-shadow: 12px 12px 24px #b8b8b8, -12px -12px 24px #f1f1f1;
   border: #ffffff;
   padding-left: 14px;
@@ -87,7 +87,7 @@ body {
 
 .alrt {
   border-radius: 14px;
-  background: #eeeeee;
+  background: #ebebeb;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #f1f1f1;
   padding-left: 20px;
   padding-right: 20px;
@@ -130,7 +130,7 @@ body {
 
 .bdg {
   border-radius: 50%;
-  background: #eeeeee;
+  background: #ebebeb;
   box-shadow: 12px 12px 24px #b8b8b8, -12px -12px 24px #ffffff;
   border: #ffffff;
   padding-left: 14px;
@@ -180,17 +180,27 @@ body {
   box-shadow: 11px -11px 18px #dbdbdb, -11px 11px 18px #f3f3f3;
   padding-left: 14px;
   padding-right: 14px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #383838;
-  font-size: 16px;
   border: none;
+}
+
+input:focus-visible {
+  outline: #a0b2d3 !important;
+  border: none !important;
+}
+
+.form-control:focus {
+  border-color: red;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 
 .nvbr {
   width: 70%;
   border-radius: 16px;
-  background: #eeeeee;
+  background: #ebebeb;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #f1f1f1;
   margin-left: 15%;
   margin-right: 15%;
@@ -217,7 +227,7 @@ body {
 
 .lst-elmnt {
   border-radius: 10px;
-  background: #eeeeee;
+  background: #ebebeb;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #f1f1f1;
   padding-left: 8px;
   padding-right: 8px;
